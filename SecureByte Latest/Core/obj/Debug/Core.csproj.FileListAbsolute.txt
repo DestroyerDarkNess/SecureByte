@@ -1,0 +1,10 @@
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Core\obj\Debug\Core.csproj.AssemblyReference.cache
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Core\obj\Debug\Core.csproj.GenerateResource.cache
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Core\obj\Debug\Core.Properties.Resources.resources
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Core\obj\Debug\Core.csproj.Up2Date
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Debug\Core.dll.config
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Debug\Core.dll
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Debug\Core.pdb
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Core\obj\Debug\Core.dll
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Core\obj\Debug\Core.pdb

@@ -1,0 +1,13 @@
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\SECURE BYTE GUI\obj\Debug\SECURE BYTE GUI.csproj.AssemblyReference.cache
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\SECURE BYTE GUI\obj\Debug\SECURE_BYTE_GUI.customMessage.resources
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\SECURE BYTE GUI\obj\Debug\SECURE_BYTE_GUI.GUI.resources
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\SECURE BYTE GUI\obj\Debug\SECURE_BYTE_GUI.Login.resources
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\SECURE BYTE GUI\obj\Debug\SECURE_BYTE_GUI.Properties.Resources.resources
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\SECURE BYTE GUI\obj\Debug\SECURE BYTE GUI.csproj.GenerateResource.cache
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\SECURE BYTE GUI\obj\Debug\SECURE BYTE GUI.csproj.CoreCompileInputs.cache
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Debug\SECURE BYTE GUI.exe.config
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Debug\SECURE BYTE GUI.exe
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Debug\SECURE BYTE GUI.pdb
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\SECURE BYTE GUI\obj\Debug\SECURE B.B6048720.Up2Date
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\SECURE BYTE GUI\obj\Debug\SECURE BYTE GUI.exe
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\SECURE BYTE GUI\obj\Debug\SECURE BYTE GUI.pdb

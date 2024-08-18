@@ -1,0 +1,6 @@
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Debug\VMUtils.dll
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Debug\VMUtils.pdb
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\VMUtils\obj\Debug\VMUtils.csproj.AssemblyReference.cache
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\VMUtils\obj\Debug\VMUtils.csproj.CoreCompileInputs.cache
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\VMUtils\obj\Debug\VMUtils.dll
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\VMUtils\obj\Debug\VMUtils.pdb

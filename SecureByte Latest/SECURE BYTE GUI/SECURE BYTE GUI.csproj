@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{27FB7418-3C6F-4C7B-98BF-865A94AE00E1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SECURE_BYTE_GUI</RootNamespace>
+    <AssemblyName>SECURE BYTE GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>shield_512px.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SECURE_BYTE_GUI.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Release\Core.dll</HintPath>
+    </Reference>
+    <Reference Include="dnlib, Version=4.4.0.0, Culture=neutral, PublicKeyToken=50e96378b6e77999, processorArchitecture=MSIL">
+      <HintPath>..\packages\dnlib.4.4.0\lib\net45\dnlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\SecureByte-Latest\Debug\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="VMUtils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Release\VMUtils.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Auth helpers\authHelpers.cs" />
+    <Compile Include="Auth helpers\KeyAuth.cs" />
+    <Compile Include="Auth helpers\UHWIDEngine.cs" />
+    <Compile Include="Bat Obfuscation\BatObfuscation.cs" />
+    <Compile Include="Bat Obfuscation\protonRandom.cs" />
+    <Compile Include="Check for updates\updateChecker.cs" />
+    <Compile Include="Code Encryption\AntiTamperNormal.cs" />
+    <Compile Include="Code Encryption\ATGlobal.cs" />
+    <Compile Include="Code Encryption\Stuffs\AntiTamperExtensions.cs" />
+    <Compile Include="Code Encryption\Stuffs\IKeyDeriver.cs" />
+    <Compile Include="Code Encryption\Stuffs\InjectHelper.cs" />
+    <Compile Include="Code Encryption\Stuffs\NormalDeriver.cs" />
+    <Compile Include="Code Encryption\Stuffs\RandomGenerator.cs" />
+    <Compile Include="Code Encryption\Stuffs\Utils.cs" />
+    <Compile Include="Code Hider\cHider.cs" />
+    <Compile Include="Code Optimization\AutoMethodBodySimplifyOptimize.cs" />
+    <Compile Include="Code Optimization\InstructionCollectionExtension.cs" />
+    <Compile Include="Code Optimization\MethodBodyExtension.cs" />
+    <Compile Include="Code Optimization\MethodReferenceEqualityComparer.cs" />
+    <Compile Include="Code Optimization\OptimizeCode.cs" />
+    <Compile Include="Forms\customMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\customMessage.Designer.cs">
+      <DependentUpon>customMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GUI.Designer.cs">
+      <DependentUpon>GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global Checker\globalChecker.cs" />
+    <Compile Include="Global for links\globalLinks.cs" />
+    <Compile Include="Global for Obfuscation\oGlobals.cs" />
+    <Compile Include="GUI global\gGlobals.cs" />
+    <Compile Include="JIT\Protection\Protection.cs" />
+    <Compile Include="JIT\Runtime\Runtime.cs" />
+    <Compile Include="JIT\Utils\Crypto.cs" />
+    <Compile Include="JIT\Utils\Utils.cs" />
+    <Compile Include="Logger\Logger.cs" />
+    <Compile Include="Merge\Core\Library\Embed.cs" />
+    <Compile Include="Merge\Core\Library\Loader.cs" />
+    <Compile Include="Merge\dnlib\Extensions\Extension.cs" />
+    <Compile Include="Merge\dnlib\Inject\Injection.cs" />
+    <Compile Include="Merge\dnlib\Inject\InjectMapper.cs" />
+    <Compile Include="Merge\dnlib\Load\AssemblyContext.cs" />
+    <Compile Include="Merge\dnlib\Load\AssemblyLoader.cs" />
+    <Compile Include="Merge\dnlib\Resources\ResourceManagement.cs" />
+    <Compile Include="Obfuscation Core\ByteEncryption\ED.cs" />
+    <Compile Include="Obfuscation Core\Context.cs" />
+    <Compile Include="Obfuscation Core\DynConverter\Converter.cs" />
+    <Compile Include="Obfuscation Core\DynConverter\Emitter.cs" />
+    <Compile Include="Obfuscation Core\DynConverter\ExceptionMapper.cs" />
+    <Compile Include="Obfuscation Core\DynConverter\Extension.cs" />
+    <Compile Include="Obfuscation Core\Emulator\EmuContext.cs" />
+    <Compile Include="Obfuscation Core\Emulator\EmuInstruction.cs" />
+    <Compile Include="Obfuscation Core\Emulator\Emulator.cs" />
+    <Compile Include="Obfuscation Core\Emulator\Instructions\Add.cs" />
+    <Compile Include="Obfuscation Core\Emulator\Instructions\And.cs" />
+    <Compile Include="Obfuscation Core\Emulator\Instructions\Blt.cs" />
+    <Compile Include="Obfuscation Core\Emulator\Instructions\Br.cs" />
+    <Compile Include="Obfuscation Core\Emulator\Instructions\LdcI4.cs" />
+    <Compile Include="Obfuscation Core\Emulator\Instructions\Ldloc.cs" />
+    <Compile Include="Obfuscation Core\Emulator\Instructions\Or.cs" />
+    <Compile Include="Obfuscation Core\Emulator\Instructions\Stloc.cs" />
+    <Compile Include="Obfuscation Core\Emulator\Instructions\Sub.cs" />
+    <Compile Include="Obfuscation Core\Emulator\Instructions\Xor.cs" />
+    <Compile Include="Obfuscation Core\Injection\DataInjector.cs" />
+    <Compile Include="Obfuscation Core\Injection\InjectHelper.cs" />
+    <Compile Include="Obfuscation Core\Injection\Injector.cs" />
+    <Compile Include="Obfuscation Core\Injection\Injector2.cs" />
+    <Compile Include="Obfuscation Core\Injection\newInjector.cs" />
+    <Compile Include="Obfuscation Core\isAdmin.cs" />
+    <Compile Include="Obfuscation Core\MethodBlocks\Block.cs" />
+    <Compile Include="Obfuscation Core\MethodBlocks\BlockParser.cs" />
+    <Compile Include="Obfuscation Core\MethodBlocks\BlockUtils.cs" />
+    <Compile Include="Obfuscation Core\MethodBlocks\Extension.cs" />
+    <Compile Include="Obfuscation Core\MethodBlocks\Trace.cs" />
+    <Compile Include="Obfuscation Core\MutationHelper\Mutation.cs" />
+    <Compile Include="Obfuscation Core\MutationHelper\MutationHelper.cs" />
+    <Compile Include="Obfuscation Core\QuickLZ\QuickLZ.cs" />
+    <Compile Include="Obfuscation Core\Utils\cryptoRandom.cs" />
+    <Compile Include="Obfuscation Core\Utils\DnlibUtils.cs" />
+    <Compile Include="Obfuscation Core\Utils\RandomGenerator.cs" />
+    <Compile Include="Obfuscation Core\Utils\RandomHelper.cs" />
+    <Compile Include="Obfuscation Core\Utils\RawHeap.cs" />
+    <Compile Include="Obfuscation Core\Utils\RNGCryptoServiceProviderRandom.cs" />
+    <Compile Include="Obfuscation Core\Utils\Safe.cs" />
+    <Compile Include="Obfuscation Core\Utils\Utils.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Protections\Advanced\Dynamic\IL2Dynamic.cs" />
+    <Compile Include="Protections\Advanced\Move void to another location\voidMover.cs" />
+    <Compile Include="Protections\Advanced\Outline void via cctor\Outline via cctor.cs" />
+    <Compile Include="Protections\CalliProtection.cs" />
+    <Compile Include="Protections\cConversion.cs" />
+    <Compile Include="Protections\ControlFlow\Normal\ControlFlow.cs" />
+    <Compile Include="Protections\ControlFlow\Normal\ControlFlowGraph.cs" />
+    <Compile Include="Protections\ControlFlow\Normal\IPredicate.cs" />
+    <Compile Include="Protections\ControlFlow\Normal\ManglerBase.cs" />
+    <Compile Include="Protections\ControlFlow\Normal\Predicate.cs" />
+    <Compile Include="Protections\ControlFlow\Normal\SwitchMangler.cs" />
+    <Compile Include="Protections\ControlFlow\Normal\Utils.cs" />
+    <Compile Include="Protections\Entrypoint\MoveEntryPoint.cs" />
+    <Compile Include="Protections\Ints\fields.cs" />
+    <Compile Include="Protections\Ints\LocalToField.cs" />
+    <Compile Include="Protections\Junk\Flood.cs" />
+    <Compile Include="Protections\Junk\Junk.cs" />
+    <Compile Include="Protections\Mild Reference Proxy\ReferenceProxy.cs" />
+    <Compile Include="Protections\Ints\Mutation\MutationConfusion.cs" />
+    <Compile Include="Protections\Outliner\Outliner.cs" />
+    <Compile Include="Protections\Random Instructions\Hider.cs" />
+    <Compile Include="Protections\Random Instructions\Shuffler.cs" />
+    <Compile Include="Protections\Software\AntiSuspend\AntiSuspend.cs" />
+    <Compile Include="Protections\Software\AntiSuspend\Runtime.cs" />
+    <Compile Include="Protections\Strings\Encoders\Services\EncryptionService.cs" />
+    <Compile Include="Renaming Obfuscation\Analyzer.cs" />
+    <Compile Include="Renaming Obfuscation\GlobalName.cs" />
+    <Compile Include="Renaming Obfuscation\Globals.cs" />
+    <Compile Include="Renaming Obfuscation\hideNSpace.cs" />
+    <Compile Include="Renaming Obfuscation\Renamer.cs" />
+    <Compile Include="Renaming Obfuscation\RNG.cs" />
+    <Compile Include="Protections\Software\AntiCrack\DetectCrackers.cs" />
+    <Compile Include="Protections\Software\AntiCrack\DetectCrackers2.cs" />
+    <Compile Include="Protections\Software\AntiCrack\Global\global.cs" />
+    <Compile Include="Protections\Software\AntiCrack\Runtime\Runtime.cs" />
+    <Compile Include="Protections\Software\AntiCrack\Runtime\Runtime2.cs" />
+    <Compile Include="Protections\Software\AntiDe4dot.cs" />
+    <Compile Include="Protections\Software\AntiDebug\AntiDebug.cs" />
+    <Compile Include="Protections\Software\AntiDebug\AntiDebugRuntime.cs" />
+    <Compile Include="Protections\Software\AntiDump\AntiDump.cs" />
+    <Compile Include="Protections\Software\AntiDump\AntiDumpRuntime.cs" />
+    <Compile Include="Protections\Software\AntiHook\Inject.cs" />
+    <Compile Include="Protections\Software\AntiHook\Runtime.cs" />
+    <Compile Include="Protections\Software\AntiHttp\AntiHttpRuntime.cs" />
+    <Compile Include="Protections\Software\AntiHttp\InjectAntiHttp.cs" />
+    <Compile Include="Protections\Software\AntiILDasm.cs" />
+    <Compile Include="Protections\Software\AntiVM\AntiVMRuntime.cs" />
+    <Compile Include="Protections\Software\AntiVM\InjectAntiVM.cs" />
+    <Compile Include="Protections\Software\dnSpyCrasher.cs" />
+    <Compile Include="Protections\Software\Integrity\IntegrityCheck.cs" />
+    <Compile Include="Protections\Software\Integrity\IntegrityCheckRuntime.cs" />
+    <Compile Include="Protections\Software\Res\Encoder.cs" />
+    <Compile Include="Protections\Software\Res\Runtime.cs" />
+    <Compile Include="Protections\Strings\Encoders\New\eConstants.cs" />
+    <Compile Include="Protections\Strings\Encoders\New\Utils.cs" />
+    <Compile Include="Protections\Strings\Encoders\Performance\perfectPerformance.cs" />
+    <Compile Include="Protections\Strings\Encoders\Replacer\replaceObfuscator.cs" />
+    <Compile Include="UI\Inx%27s UI.cs" />
+    <Compile Include="UI\Movement.cs" />
+    <Compile Include="Program.cs" />
+    <EmbeddedResource Include="Forms\customMessage.resx">
+      <DependentUpon>customMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GUI.resx">
+      <DependentUpon>GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Code Hider\Code Hider.csproj" />
+    <None Include="Code Hider\obj\Release\Code Hider.csproj.CopyComplete" />
+    <None Include="Code Hider\obj\Release\Code Hider.csproj.CoreCompileInputs.cache" />
+    <None Include="Code Hider\obj\Release\Code Hider.csprojAssemblyReference.cache" />
+    <None Include="Code Hider\obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Code Hider\packages.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GOTHIC.TTF" />
+    <None Include="Resources\GOTHICB.TTF" />
+    <None Include="Resources\home_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expand_arrow_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\multiply_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\discord_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bitcoin_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ethereum_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\litecoin_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paypal_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RoyalCrescent-G8BP.ttf" />
+    <None Include="Resources\tether_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tron_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\discord_new_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telegram_app_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bitwarden_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smart_home_shield_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign_in_form_password_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\username_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next_page_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\validation_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\installing_updates_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\codeencryption_Se.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\codeencryption_Un.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dynamic_Se.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dynamic_Un.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jit_Se.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jit_Un.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main_Se.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main_Un.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\protections_Se.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\protections_Un.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renamer_Se.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renamer_Un.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glasses_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_file_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_folder_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_file_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_folder_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\protect_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_24px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check_all_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uncheck_all_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abc_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window_search_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\link_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\api_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comments_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Code Hider\obj\Release\Code Hider.csproj.FileListAbsolute.txt" />
+    <Content Include="Code Hider\obj\Release\Code Hider.dll" />
+    <Content Include="shield_512px.ico" />
+    <None Include="Resources\signature_20px.png" />
+    <None Include="Resources\forward_24px.png" />
+    <None Include="Resources\chevron_right_24px.png" />
+    <None Include="Resources\JITLibrary.dll" />
+    <None Include="Resources\shield_64px.png" />
+    <None Include="Resources\JLX86.dll" />
+    <None Include="Resources\JLX64.dll" />
+    <None Include="Resources\back_to_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Code Hider\bin\Debug\" />
+    <Folder Include="Code Hider\bin\Release\" />
+    <Folder Include="Code Hider\obj\Debug\" />
+    <Folder Include="Code Hider\obj\Release\TempPE\" />
+    <Folder Include="Obfuscation Core\MemoryLoader\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

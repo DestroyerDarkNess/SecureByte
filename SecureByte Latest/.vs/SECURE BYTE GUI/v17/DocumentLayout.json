@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\s4lsa\\source\\repos\\Hydra\\Source\\SecureByte-Latest-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{302EB94C-2973-4759-B39A-71CE18A9DCD3}|Code Encryption\\CodeEncryption.csproj|c:\\users\\s4lsa\\source\\repos\\hydra\\source\\securebyte-latest-main\\code encryption\\mutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302EB94C-2973-4759-B39A-71CE18A9DCD3}|Code Encryption\\CodeEncryption.csproj|solutionrelative:code encryption\\mutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4412D7B9-710C-4433-944B-7CE491EDD989}|Core\\Core.csproj|C:\\Users\\s4lsa\\source\\repos\\Hydra\\Source\\SecureByte-Latest-main\\core\\protection\\methoddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4412D7B9-710C-4433-944B-7CE491EDD989}|Core\\Core.csproj|solutionrelative:core\\protection\\methoddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4412D7B9-710C-4433-944B-7CE491EDD989}|Core\\Core.csproj|C:\\Users\\s4lsa\\source\\repos\\Hydra\\Source\\SecureByte-Latest-main\\core\\injection\\injectinitialise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4412D7B9-710C-4433-944B-7CE491EDD989}|Core\\Core.csproj|solutionrelative:core\\injection\\injectinitialise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4412D7B9-710C-4433-944B-7CE491EDD989}|Core\\Core.csproj|C:\\Users\\s4lsa\\source\\repos\\Hydra\\Source\\SecureByte-Latest-main\\core\\byteencryption\\process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4412D7B9-710C-4433-944B-7CE491EDD989}|Core\\Core.csproj|solutionrelative:core\\byteencryption\\process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Mutation.cs",
+              "DocumentMoniker": "C:\\Users\\s4lsa\\source\\repos\\Hydra\\Source\\SecureByte-Latest-main\\Code Encryption\\Mutation.cs",
+              "RelativeDocumentMoniker": "Code Encryption\\Mutation.cs",
+              "ToolTip": "C:\\Users\\s4lsa\\source\\repos\\Hydra\\Source\\SecureByte-Latest-main\\Code Encryption\\Mutation.cs",
+              "RelativeToolTip": "Code Encryption\\Mutation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T20:03:26.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Process.cs",
+              "DocumentMoniker": "C:\\Users\\s4lsa\\source\\repos\\Hydra\\Source\\SecureByte-Latest-main\\Core\\ByteEncryption\\Process.cs",
+              "RelativeDocumentMoniker": "Core\\ByteEncryption\\Process.cs",
+              "ToolTip": "C:\\Users\\s4lsa\\source\\repos\\Hydra\\Source\\SecureByte-Latest-main\\Core\\ByteEncryption\\Process.cs",
+              "RelativeToolTip": "Core\\ByteEncryption\\Process.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAYwEUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T21:29:33.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InjectInitialise.cs",
+              "DocumentMoniker": "C:\\Users\\s4lsa\\source\\repos\\Hydra\\Source\\SecureByte-Latest-main\\Core\\Injection\\InjectInitialise.cs",
+              "RelativeDocumentMoniker": "Core\\Injection\\InjectInitialise.cs",
+              "ToolTip": "C:\\Users\\s4lsa\\source\\repos\\Hydra\\Source\\SecureByte-Latest-main\\Core\\Injection\\InjectInitialise.cs",
+              "RelativeToolTip": "Core\\Injection\\InjectInitialise.cs",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAqwEoBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T21:27:45.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MethodData.cs",
+              "DocumentMoniker": "C:\\Users\\s4lsa\\source\\repos\\Hydra\\Source\\SecureByte-Latest-main\\Core\\Protection\\MethodData.cs",
+              "RelativeDocumentMoniker": "Core\\Protection\\MethodData.cs",
+              "ToolTip": "C:\\Users\\s4lsa\\source\\repos\\Hydra\\Source\\SecureByte-Latest-main\\Core\\Protection\\MethodData.cs",
+              "RelativeToolTip": "Core\\Protection\\MethodData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T21:26:54.535Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

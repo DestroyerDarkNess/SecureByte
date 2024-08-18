@@ -1,0 +1,6 @@
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Debug\Runtime.dll
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Debug\Runtime.pdb
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Runtime\obj\Debug\Runtime.csproj.AssemblyReference.cache
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Runtime\obj\Debug\Runtime.csproj.CoreCompileInputs.cache
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Runtime\obj\Debug\Runtime.dll
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Runtime\obj\Debug\Runtime.pdb

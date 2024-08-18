@@ -1,0 +1,5 @@
+I:\[  #Luxurious Projects ]\SecureByte\bin\Release\Code Hider.dll
+I:\[  #Luxurious Projects ]\SecureByte\Code Hider\obj\Release\Code Hider.csprojAssemblyReference.cache
+I:\[  #Luxurious Projects ]\SecureByte\Code Hider\obj\Release\Code Hider.csproj.CoreCompileInputs.cache
+I:\[  #Luxurious Projects ]\SecureByte\Code Hider\obj\Release\Code Hider.csproj.CopyComplete
+I:\[  #Luxurious Projects ]\SecureByte\Code Hider\obj\Release\Code Hider.dll

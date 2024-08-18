@@ -1,0 +1,8 @@
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Debug\Hardening.dll.config
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Debug\Hardening.dll
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Debug\Hardening.pdb
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Hardening\obj\Debug\Hardening.csproj.AssemblyReference.cache
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Hardening\obj\Debug\Hardening.csproj.CoreCompileInputs.cache
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Hardening\obj\Debug\Hardening.csproj.Up2Date
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Hardening\obj\Debug\Hardening.dll
+C:\Users\s4lsa\source\repos\Hydra\Source\SecureByte-Latest-main\Hardening\obj\Debug\Hardening.pdb
